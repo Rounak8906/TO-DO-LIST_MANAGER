@@ -1,19 +1,3 @@
-# TO-DO-LIST_MANAGER
-## TO-DO-LIST MANAGER :
-This Python program is a simple To-Do List Manager used to add, remove, edit, display, and complete tasks. It stores tasks in a text file and includes priority, due date, and time for better task management. It uses file handling, functions, and loops for execution.
-
-## PROCEDURE : 
-1. Import the Python datetime module for recording task time.
-2. Define color codes for displaying colored output in the terminal.
-3. Create a function to load tasks from the ```tasks.txt``` file.
-4. Create a function to save tasks into the ```tasks.txt``` file.
-5. Display the menu with options: Add, Remove, Show, Edit, Mark Completed, and Exit.
-6. Accept user choice from the menu.
-7. Perform the selected operation on the task list.
-8. U pdate the file after every change.
-9. Repeat the process until the user selects Exit.
-## PROGRAM :
-```python
 from datetime import datetime
 
 # ANSI colors
@@ -106,19 +90,3 @@ while True:
     elif choice == "6":
         print(BLUE + "Goodbye!" + RESET)
         break
-```
-## OUTPUT :
-
-### Option 1 :
-![alt text](Add_Task.png)
-### Option 2 :
-![alt text](Remove_Task.png)
-### Option 3 :
-![alt text](Show_Task.png)
-### Option 4 :
-![alt text](Edit_Task.png)
-
-## RESULT :
-The To-Do List Manager program was executed successfully. The program allowed the user to add tasks, view existing tasks, mark tasks as completed, and delete tasks when needed. All operations were performed correctly based on user input, and the task list was updated dynamically after each action.
-## CONCLUSION :
-The To-Do List Manager program demonstrates how basic programming concepts such as lists, loops, conditional statements, and functions can be used to build a practical application. It helps in organizing daily tasks efficiently and improves understanding of data handling in programming. The program can be further enhanced by adding features like saving tasks to a file, setting deadlines, or categorizing tasks. 
